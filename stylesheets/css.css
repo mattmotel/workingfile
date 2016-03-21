@@ -53,7 +53,7 @@ small a{
 .mobile-gif {display:none;}
 
 
-@media only screen and (max-width : 480px)  {
+@media only screen and (max-width : 500px)  {
 	.desktop-video {display:none;}
 	.mobile-gif {display:block;width:100%;}
 
@@ -61,5 +61,21 @@ small a{
 	display:block;
 	margin:20px 10px;
 	}
-
 }
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 2) {
+	.desktop-video {display:none;}
+	.mobile-gif {display:block;}
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape) {
+	.desktop-video {display:none;}
+	.mobile-gif {display:block;}
+}
+
