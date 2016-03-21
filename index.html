@@ -11,71 +11,20 @@
     <!-- page title -->
     <title>Working File Podcast</title>
 
-<style>
-
-body{
-	text-align:center;
-	font-family:Courier,monaco;
-}
-
-video {
-	margin:auto;
-}
-
-.working {
-	max-width:500px;
-	margin:auto;
-}
-.btn {
-	padding:10px;
-	text-decoration:none;
-}		
-	
-.feed {
-	border: 1px solid black;
-	color:black;
-}	
-.feed:hover{
-	background:black;
-	color:white;
-}
-	
-.subscribe {
-	border: 1px solid purple;
-	color:purple;
-	
-}
-.subscribe:hover{
-	background:purple;
-	color:white;
-}
-	
-
-.soundcloud {
-	border: 1px solid orange;
-	color:orange;
-}
-.soundcloud:hover{
-	background:orange;
-	color:white;
-}
-
-small a{
-	color:gray;
-	}	
-
-</style>
+	<link rel="stylesheet" type="text/css" href="styles/css.css"/>
 
 </head>
 <body>
 
+<div class="desktop-video">
+	<!-- video file for desktop -->
+	<video width="500" height="200" autoplay="autoplay" loop>
+	<source src="working/working-video.mp4" type="video/mp4" />
+	</video>
+</div>
+<!-- gif for mobile things -->
+<img src="working/working-gif.gif" class="mobile-gif"/>
 
-
-
-
-<video width="500" height="200" autoplay="autoplay" loop>
-<source src="-final-video.mp4" type="video/mp4" />
-</video>
 
 <div class="working">
 <p>Working File is a panel show about design featuring <br/>Andy Mangold, Matt McInerney and friends.</p>

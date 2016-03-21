@@ -1,0 +1,65 @@
+
+body{
+	text-align:center;
+	font-family:Courier,monaco;
+}
+
+video {
+	margin:auto;
+}
+
+.working {
+	max-width:500px;
+	margin:auto;
+}
+.btn {
+	padding:10px;
+	text-decoration:none;
+}		
+	
+.feed {
+	border: 1px solid black;
+	color:black;
+}	
+.feed:hover{
+	background:black;
+	color:white;
+}
+	
+.subscribe {
+	border: 1px solid purple;
+	color:purple;
+	
+}
+.subscribe:hover{
+	background:purple;
+	color:white;
+}
+	
+
+.soundcloud {
+	border: 1px solid orange;
+	color:orange;
+}
+.soundcloud:hover{
+	background:orange;
+	color:white;
+}
+
+small a{
+	color:gray;
+	}	
+
+.mobile-gif {display:none;}
+
+
+@media only screen and (max-width : 480px)  {
+	.desktop-video {display:none;}
+	.mobile-gif {display:block;width:100%;}
+
+	.btn {
+	display:block;
+	margin:20px 10px;
+	}
+
+}
